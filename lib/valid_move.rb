@@ -15,3 +15,9 @@ def valid_move?(board, index)
   else return false 
 end
 end
+
+def number_between(num) 
+  if num.between? (0-8) == true 
+  else return false
+  end
+end
